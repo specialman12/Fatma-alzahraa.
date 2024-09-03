@@ -1,3 +1,5 @@
+window.addEventListener("load", welcomeMessage);
+
 // استخدمت جافا سكريبت لإنشاء رسالة ترحيب
 function welcomeMessage() {
   alert("تم عمل الموقع بكل حب من اجل مس فاطمه❤");
