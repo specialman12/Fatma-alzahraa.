@@ -1,10 +1,3 @@
-window.addEventListener("load", welcomeMessage);
-
-// استخدمت جافا سكريبت لإنشاء رسالة ترحيب
-function welcomeMessage() {
-  alert("تم عمل الموقع بكل حب من اجل مس فاطمه❤");
-}
-
 let backgroundMusic = document.getElementById('background-music');
 let toggleButton = document.getElementById('toggle-music');
 
@@ -20,4 +13,18 @@ function toggleMusic() {
     toggleButton.innerHTML = '⏸Stop Music';
     isPlaying = true;
   }
+}
+
+
+
+
+
+window.addEventListener("load", welcomeMessage);
+
+
+
+
+//استخدمت جافا سكريبت لإنشاء رسالة ترحيب
+function welcomeMessage() {
+  alert("تم عمل الموقع بكل حب من اجل مس فاطمه❤");
 }
